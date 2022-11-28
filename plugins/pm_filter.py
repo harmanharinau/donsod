@@ -609,10 +609,10 @@ async def auto_filter(client, msg, spoll=False):
     pre = 'filep' if settings['file_secure'] else 'file'
     api = await get_sundisk(msg.chat.id)
     if api is None:
-        api_url = f"https://adrinolinks.in/st?api=6c4baa94596c297d196093bd1cfb4265c6b175a1&url=https://telegram.me/{temp.U_NAME}?start="
+        api_url = f"https://Mdiskshortner.link/st?api=45ac07bc7c7f54c80b5af1b84696ef8d39d783be&url=https://telegram.me/{temp.U_NAME}?start="
     else:
         api = api["api"]
-        api_url = f"https://adrinolinks.in/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
+        api_url = f"https://Mdiskshortner.link/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
     btn = [
         [
             InlineKeyboardButton(
